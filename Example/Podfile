@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'XMKit_EN_Example' do
+  pod 'XMKit_EN', :path => '../'
+
+end

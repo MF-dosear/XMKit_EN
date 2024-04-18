@@ -1,0 +1,11 @@
+framework module XMSDK {
+  umbrella header "XMSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module XMSDK.Swift {
+  header "XMSDK-Swift.h"
+  requires objc
+}

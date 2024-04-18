@@ -1,0 +1,6 @@
+framework module XMKit_EN {
+  umbrella header "XMKit_EN-umbrella.h"
+
+  export *
+  module * { export * }
+}

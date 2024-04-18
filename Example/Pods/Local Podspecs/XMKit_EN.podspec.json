@@ -1,0 +1,60 @@
+{
+  "name": "XMKit_EN",
+  "version": "1.0.0",
+  "summary": "XMKit_EN. iLife 游戏 北美库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MF-dosear/XMKit_EN",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dosear@qq.com": "dosear@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MF-dosear/XMKit_EN.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "public_header_files": [
+    "XMKit_EN/Classes/**/*.h",
+    "XMKit_EN/Libraries/**/*.h"
+  ],
+  "source_files": [
+    "XMKit_EN/Classes/**/*",
+    "XMKit_EN/Libraries/**/*.h"
+  ],
+  "frameworks": [
+    "StoreKit",
+    "WebKit",
+    "WatchConnectivity",
+    "Social",
+    "EventKit",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "MessageUI",
+    "JavaScriptCore",
+    "CoreTelephony",
+    "CoreMedia",
+    "AVFoundation",
+    "AudioToolbox",
+    "AdSupport",
+    "UIKit"
+  ],
+  "libraries": [
+    "z",
+    "z.1.2.5",
+    "bz2.1.0",
+    "c++"
+  ],
+  "static_framework": false,
+  "info_plist": {
+    "UIViewControllerBasedStatusBarAppearance": false,
+    "NSPhotoLibraryUsageDescription": "Your app needs to access your photo library",
+    "NSCameraUsageDescription": "Your app needs to use your camera",
+    "GADApplicationIdentifier": "ca-app-pub-4218048500643655~7205431006"
+  }
+}
