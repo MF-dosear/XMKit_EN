@@ -20,15 +20,7 @@
   <string>????</string>
   <key>CFBundleVersion</key>
   <string>${CURRENT_PROJECT_VERSION}</string>
-  <key>GADApplicationIdentifier</key>
-  <string>ca-app-pub-4218048500643655~7205431006</string>
-  <key>NSCameraUsageDescription</key>
-  <string>Your app needs to use your camera</string>
-  <key>NSPhotoLibraryUsageDescription</key>
-  <string>Your app needs to access your photo library</string>
   <key>NSPrincipalClass</key>
   <string></string>
-  <key>UIViewControllerBasedStatusBarAppearance</key>
-  <false/>
 </dict>
 </plist>

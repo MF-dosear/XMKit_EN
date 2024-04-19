@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* XMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XMAppDelegate.m */; };
@@ -18,7 +15,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CA06E160AD1EECEB71E70276 /* Pods_XMKit_EN_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFFB03278AA4481FBE30CAD /* Pods_XMKit_EN_Example.framework */; };
-		DAE9D8BE2BCFCB6100AAC7C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE9D8BD2BCFCB6100AAC7C3 /* GoogleService-Info.plist */; };
+		DA5872572BD2054600A5BD0A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5872562BD2054600A5BD0A /* StoreKit.framework */; };
+		DAC842A02BD0F37A003D3DE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC8429F2BD0F37A003D3DE6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +25,6 @@
 		3AFC0622CD2FF0E4A398794A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3FBC7ACC24EBBBE5D4366BD5 /* XMKit_EN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMKit_EN.podspec; path = ../XMKit_EN.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XMKit_EN_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMKit_EN_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,7 +38,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A6FFF972169E3CE00FFF59C /* Pods-XMKit_EN_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMKit_EN_Example.release.xcconfig"; path = "Target Support Files/Pods-XMKit_EN_Example/Pods-XMKit_EN_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CCFFB03278AA4481FBE30CAD /* Pods_XMKit_EN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMKit_EN_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE9D8BD2BCFCB6100AAC7C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA0C83C32BD0C76500E6E9ED /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		DA5872552BD2053800A5BD0A /* XMKit_EN_ExampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMKit_EN_ExampleDebug.entitlements; sourceTree = "<group>"; };
+		DA5872562BD2054600A5BD0A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DA5872582BD2055100A5BD0A /* XMKit_EN_ExampleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMKit_EN_ExampleRelease.entitlements; sourceTree = "<group>"; };
+		DAC8429F2BD0F37A003D3DE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				CA06E160AD1EECEB71E70276 /* Pods_XMKit_EN_Example.framework in Frameworks */,
+				DA5872572BD2054600A5BD0A /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +70,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				DA5872582BD2055100A5BD0A /* XMKit_EN_ExampleRelease.entitlements */,
+				DA5872552BD2053800A5BD0A /* XMKit_EN_ExampleDebug.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for XMKit_EN */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -92,9 +91,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58D195388D20070C39A /* Foundation.framework */,
-				6003F58F195388D20070C39A /* CoreGraphics.framework */,
-				6003F591195388D20070C39A /* UIKit.framework */,
+				DA5872562BD2054600A5BD0A /* StoreKit.framework */,
 				CCFFB03278AA4481FBE30CAD /* Pods_XMKit_EN_Example.framework */,
 			);
 			name = Frameworks;
@@ -103,7 +100,8 @@
 		6003F593195388D20070C39A /* Example for XMKit_EN */ = {
 			isa = PBXGroup;
 			children = (
-				DAE9D8BD2BCFCB6100AAC7C3 /* GoogleService-Info.plist */,
+				DAC8429F2BD0F37A003D3DE6 /* GoogleService-Info.plist */,
+				DA0C83C32BD0C76500E6E9ED /* Config.h */,
 				6003F59C195388D20070C39A /* XMAppDelegate.h */,
 				6003F59D195388D20070C39A /* XMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -149,7 +147,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				86CF1100868E0E3FA93BD30C /* [CP] Embed Pods Frameworks */,
+				E8711E69842292969D2F4494 /* [CP] Copy Pods Resources */,
+				CECD2FDDDAEAD9536359D0A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,7 +201,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				DAE9D8BE2BCFCB6100AAC7C3 /* GoogleService-Info.plist in Resources */,
+				DAC842A02BD0F37A003D3DE6 /* GoogleService-Info.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -233,22 +232,156 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86CF1100868E0E3FA93BD30C /* [CP] Embed Pods Frameworks */ = {
+		CECD2FDDDAEAD9536359D0A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XMKit_EN_Example/Pods-XMKit_EN_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XMKit_EN/XMKit_EN.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ATOM-Standalone/ATOM.framework/ATOM",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework/AppLovinSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/HyBid/Core/OMSDK_Pubnativenet.framework/OMSDK_Pubnativenet",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMKit_EN.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATOM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppLovinSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMSDK_Pubnativenet.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMKit_EN_Example/Pods-XMKit_EN_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8711E69842292969D2F4494 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XMKit_EN_Example/Pods-XMKit_EN_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FBAudienceNetwork/FBAudienceNetwork.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FMDB/FMDB.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging/FirebaseMessaging_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Fyber_Marketplace_SDK/Fyber_Marketplace_SDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HyBid/HyBid_Privacy.bundle",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/close@3x.png",
+				"${BUILT_PRODUCTS_DIR}/HyBid/HyBid.framework/HyBidCustomCTAView.nib",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/HyBidLocalizable.xcstrings",
+				"${BUILT_PRODUCTS_DIR}/HyBid/HyBid.framework/HyBidMRAIDCloseCardView.nib",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteExternalLink.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteExternalLink1.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteExternalLink1@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteExternalLink1@3x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteExternalLink@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteFullScreen.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteFullScreen@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLitePlay.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLitePlay@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/PNLiteSkip.png",
+				"${BUILT_PRODUCTS_DIR}/HyBid/HyBid.framework/PNLiteVASTPlayerFullScreenViewController.nib",
+				"${BUILT_PRODUCTS_DIR}/HyBid/HyBid.framework/PNLiteVASTPlayerInterstitialViewController.nib",
+				"${BUILT_PRODUCTS_DIR}/HyBid/HyBid.framework/PNLiteVASTPlayerRewardedViewController.nib",
+				"${BUILT_PRODUCTS_DIR}/HyBid/HyBid.framework/PNLiteVASTPlayerViewController.nib",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/skip.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/skip@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/skip@3x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-off.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-off@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-off@3x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@2x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/sound-on@3x.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Resources/VerveContentInfo.png",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/OMSDK-1.4.10/omsdk.js",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidmraidscaling.js",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/hybidscaling.js",
+				"${PODS_ROOT}/HyBid/PubnativeLite/PubnativeLite/Core/MRAID/navigation_geolocation.js",
+				"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/InMobiSDK/InMobiSDK_Privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/IronSourceSDK/IronSourcePrivacyInfo.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MintegralAdSDK/MTGSDK.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises_Privacy.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/PrivacyInfo.xcprivacy",
+				"${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAds.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/VungleAds/VungleAds.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/XMKit_EN/XMKit_EN.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb_Privacy.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FBAudienceNetwork.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FMDB.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseCore_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseCoreInternal_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseInstallations_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseMessaging_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fyber_Marketplace_SDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMobileAdsResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleDataTransport_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UserMessagingPlatformResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleUtilities_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HyBid_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/close.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/close@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/close@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HyBidCustomCTAView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HyBidLocalizable.xcstrings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HyBidMRAIDCloseCardView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteExternalLink.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteExternalLink1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteExternalLink1@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteExternalLink1@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteExternalLink@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteFullScreen.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteFullScreen@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLitePlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLitePlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteSkip.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteVASTPlayerFullScreenViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteVASTPlayerInterstitialViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteVASTPlayerRewardedViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PNLiteVASTPlayerViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/skip.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/skip@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/skip@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sound-off.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sound-off@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sound-off@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sound-on.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sound-on@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sound-on@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VerveContentInfo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/omsdk.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hybidmraidscaling.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hybidscaling.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/navigation_geolocation.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InMobiSDK_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IronSourcePrivacyInfo.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MTGSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FBLPromises_Privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PrivacyInfo.xcprivacy",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnityAds.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VungleAds.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMKit_EN.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nanopb_Privacy.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMKit_EN_Example/Pods-XMKit_EN_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,6 +497,9 @@
 			baseConfigurationReference = 29DC5AA36942CB1E24CDAD6B /* Pods-XMKit_EN_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XMKit_EN_ExampleDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = "";
@@ -389,6 +525,7 @@
 			baseConfigurationReference = 9A6FFF972169E3CE00FFF59C /* Pods-XMKit_EN_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XMKit_EN_ExampleRelease.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = "";

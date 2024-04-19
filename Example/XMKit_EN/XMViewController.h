@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface XMViewController : UIViewController
+@interface XMViewController : UITableViewController
 
 @end

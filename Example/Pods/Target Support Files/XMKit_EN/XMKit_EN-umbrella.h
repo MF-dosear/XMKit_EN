@@ -10,7 +10,12 @@
 #endif
 #endif
 
-#import "XMKit.h"
+#import "XMSDK.h"
+#import "XMManager.h"
+#import "XMCommon.h"
+#import "XMDelegate.h"
+#import "XMInfos.h"
+#import "Singleton.h"
 
 FOUNDATION_EXPORT double XMKit_ENVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMKit_ENVersionString[];
