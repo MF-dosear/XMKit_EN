@@ -257,8 +257,18 @@ singleton_implementation(XMManager)
     // Deeplink
     [XMManager deepLinkApplication:application didFinishLaunchingWithOptions:launchOptions];
     
-    NSString *version = [ALSdk version];
-    NSLog(@"veriosn = %@", version);
+//    NSString *version = [ALSdk version];
+//    NSLog(@"veriosn = %@", version);
+    
+    // 广告追踪
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            
+            
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 + (void)sdkApplicationDidBecomeActive:(UIApplication *)application{

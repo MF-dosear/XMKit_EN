@@ -294,3 +294,6 @@
 // applinks:ra.onelink.me
 
 @end
+
+//--use-libraries --use-static-frameworks --skip-import-validation
+// pod trunk push XMKit_EN.podspec --use-libraries --skip-import-validation 

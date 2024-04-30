@@ -16,6 +16,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CA06E160AD1EECEB71E70276 /* Pods_XMKit_EN_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFFB03278AA4481FBE30CAD /* Pods_XMKit_EN_Example.framework */; };
 		DA5872572BD2054600A5BD0A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5872562BD2054600A5BD0A /* StoreKit.framework */; };
+		DA6D89142BE09963002D56AE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DA6D89132BE09963002D56AE /* PrivacyInfo.xcprivacy */; };
 		DAC842A02BD0F37A003D3DE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC8429F2BD0F37A003D3DE6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		DA5872552BD2053800A5BD0A /* XMKit_EN_ExampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMKit_EN_ExampleDebug.entitlements; sourceTree = "<group>"; };
 		DA5872562BD2054600A5BD0A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DA5872582BD2055100A5BD0A /* XMKit_EN_ExampleRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XMKit_EN_ExampleRelease.entitlements; sourceTree = "<group>"; };
+		DA6D89132BE09963002D56AE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DAC8429F2BD0F37A003D3DE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F595195388D20070C39A /* Info.plist */,
+				DA6D89132BE09963002D56AE /* PrivacyInfo.xcprivacy */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for XMKit_EN";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6D89142BE09963002D56AE /* PrivacyInfo.xcprivacy in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				DAC842A02BD0F37A003D3DE6 /* GoogleService-Info.plist in Resources */,

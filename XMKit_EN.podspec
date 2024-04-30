@@ -13,7 +13,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/MF-dosear/XMKit_EN.git', :tag => s.version.to_s }
   
   #sdk 支持最低版本
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '11.0'
   
   #不支持模拟器
   s.pod_target_xcconfig = {

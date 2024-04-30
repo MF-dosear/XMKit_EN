@@ -16,7 +16,7 @@
     "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "11.0"
   },
   "pod_target_xcconfig": {
     "VALID_ARCHS[sdk=iphonesimulator*]": ""
