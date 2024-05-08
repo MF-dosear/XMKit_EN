@@ -148,10 +148,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/IronSourceSDK/IronSourcePrivacyInfo.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MintegralAdSDK/MTGSDK.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises_Privacy.bundle"
-  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
-  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/PrivacyInfo.xcprivacy"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAds.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/VungleAds/VungleAds.bundle"
+  install_resource "${PODS_ROOT}/../../XMKit_EN/Resources/SVProgressHUD.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/XMKit_EN/XMKit_EN.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb_Privacy.bundle"
 fi
@@ -207,10 +206,9 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/IronSourceSDK/IronSourcePrivacyInfo.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/MintegralAdSDK/MTGSDK.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises_Privacy.bundle"
-  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
-  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/PrivacyInfo.xcprivacy"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/UnityAds/UnityAds.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/VungleAds/VungleAds.bundle"
+  install_resource "${PODS_ROOT}/../../XMKit_EN/Resources/SVProgressHUD.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/XMKit_EN/XMKit_EN.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb_Privacy.bundle"
 fi

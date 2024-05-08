@@ -358,9 +358,6 @@ PODS:
   - nanopb/decode (2.30910.0)
   - nanopb/encode (2.30910.0)
   - PromisesObjC (2.4.0)
-  - SVProgressHUD (2.3.1):
-    - SVProgressHUD/Core (= 2.3.1)
-  - SVProgressHUD/Core (2.3.1)
   - UnityAds (4.10.0)
   - VungleAds (7.3.1)
   - XMKit_EN (1.0.0):
@@ -384,7 +381,6 @@ PODS:
     - IQKeyboardManager (~> 6.5.18)
     - JKCategories (~> 1.9.3)
     - Masonry (~> 1.1.0)
-    - SVProgressHUD (~> 2.3.1)
     - YYText (~> 1.0.7)
   - YYText (1.0.7)
 
@@ -430,7 +426,6 @@ SPEC REPOS:
     - MintegralAdSDK
     - nanopb
     - PromisesObjC
-    - SVProgressHUD
     - UnityAds
     - VungleAds
     - YYText
@@ -477,10 +472,9 @@ SPEC CHECKSUMS:
   MintegralAdSDK: 5ff28af4529d8eedf9e2c4e84ddf70bebf48691c
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
-  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
   VungleAds: 04a17ab51fb61f41cd6d666fd0024509005740fe
-  XMKit_EN: 32d80b9cc01e242fa4db6a01a4995a8f8d36dfbe
+  XMKit_EN: 36da7256788a25ef5d3be74fb8cf17d1022f236a
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 42023e99e1546df0c2a88b2262eaa5c6e14d8799

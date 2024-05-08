@@ -82,10 +82,13 @@ TODO: Add long description of the pod here.
   #引用外部library库
   #s.vendored_libraries = ['XMKit_EN/Libraries/*']
   
-  #bundles
+  #SDK 的 bundles
   s.resource_bundles = {
       'XMKit_EN' => ['XMKit_EN/Assets/*']
   }
+  
+  # bundle资源
+  s.resources = ['XMKit_EN/Resources/*.bundle']
   
   #pch
   s.prefix_header_file = 'XMKit_EN/Classes/Header/ZPHeader.pch'
@@ -111,9 +114,9 @@ TODO: Add long description of the pod here.
   s.dependency 'AppsFlyerFramework', '~> 6.14.0'
   s.dependency 'FirebaseAnalytics', '~> 10.24.0'
   s.dependency 'FirebaseMessaging', '~> 10.24.0'
-
+  
+#  s.dependency 'SVProgressHUD', '~> 2.3.1'
   s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'SVProgressHUD', '~> 2.3.1'
   s.dependency 'YYText', '~> 1.0.7'
   s.dependency 'AvoidCrash', '~> 2.5.2'
   s.dependency 'IQKeyboardManager', '~> 6.5.18'

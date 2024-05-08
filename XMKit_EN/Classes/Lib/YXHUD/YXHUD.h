@@ -6,7 +6,7 @@
 //  Copyright © 2023 G.E.M. All rights reserved.
 //
 
-#import <SVProgressHUD/SVProgressHUD.h>
+#import "SVProgressHUD.h"
 #import "YXError.h"
 
 NS_ASSUME_NONNULL_BEGIN
