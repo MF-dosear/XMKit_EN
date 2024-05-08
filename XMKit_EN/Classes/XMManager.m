@@ -259,22 +259,14 @@ singleton_implementation(XMManager)
     
 //    NSString *version = [ALSdk version];
 //    NSLog(@"veriosn = %@", version);
-    
-    // 广告追踪
-    if (@available(iOS 14, *)) {
-        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
-            
-            
-        }];
-    } else {
-        // Fallback on earlier versions
-    }
 }
 
 + (void)sdkApplicationDidBecomeActive:(UIApplication *)application{
     // app启动
     [[AppsFlyerLib shared] start];
     [[FBSDKAppEvents shared] activateApp];
+    
+    [XMManager deepLinkApplicationDidBecomeActive:application];
 }
 
 + (BOOL)sdkApplication:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary *)options{
